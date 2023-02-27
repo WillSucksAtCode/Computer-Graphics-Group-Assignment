@@ -18,7 +18,7 @@ MonoBehaviour:
     m_Value: 0.53
   intensity:
     m_OverrideState: 1
-    m_Value: 5.4
+    m_Value: 10
   scatter:
     m_OverrideState: 0
     m_Value: 0.7
@@ -41,31 +41,6 @@ MonoBehaviour:
   dirtIntensity:
     m_OverrideState: 0
     m_Value: 0
---- !u!114 &-6470441067933401639
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ccf1aba9553839d41ae37dd52e9ebcce, type: 3}
-  m_Name: MotionBlur
-  m_EditorClassIdentifier: 
-  active: 1
-  mode:
-    m_OverrideState: 0
-    m_Value: 0
-  quality:
-    m_OverrideState: 1
-    m_Value: 2
-  intensity:
-    m_OverrideState: 1
-    m_Value: 1
-  clamp:
-    m_OverrideState: 1
-    m_Value: 0.2
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81,9 +56,8 @@ MonoBehaviour:
   components:
   - {fileID: 7963267358982353231}
   - {fileID: -8739043944837304875}
-  - {fileID: 5713891563579635674}
-  - {fileID: -6470441067933401639}
---- !u!114 &5713891563579635674
+  - {fileID: 2531503920152640173}
+--- !u!114 &2531503920152640173
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -92,19 +66,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5485954d14dfb9a4c8ead8edb0ded5b1, type: 3}
-  m_Name: LiftGammaGain
+  m_Script: {fileID: 11500000, guid: ccf1aba9553839d41ae37dd52e9ebcce, type: 3}
+  m_Name: MotionBlur
   m_EditorClassIdentifier: 
-  active: 0
-  lift:
+  active: 1
+  mode:
     m_OverrideState: 1
-    m_Value: {x: 0.97002405, y: 0.94723415, z: 1, w: 0.15517241}
-  gamma:
+    m_Value: 0
+  quality:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 1, z: 1, w: 0.18965517}
-  gain:
+    m_Value: 2
+  intensity:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 1, z: 1, w: 0.03448276}
+    m_Value: 0.148
+  clamp:
+    m_OverrideState: 1
+    m_Value: 0.05
 --- !u!114 &7963267358982353231
 MonoBehaviour:
   m_ObjectHideFlags: 3
