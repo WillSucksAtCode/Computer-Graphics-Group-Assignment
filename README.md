@@ -1,6 +1,7 @@
 # Computer Graphics Group Assignment
 
 William Heath - 100829482 - Created the Repo, Video, Bloom effect, and decals.
+
 Farhan Hussain - 100787821 - Created Particles, and Motion Blur.
 
 Rim Lighting and Toon Ramp were created with shader graph's to work with URP Rim lighting was created using the Fresnel Effect Node combined with a Color Node Toon ramp was created with the help of this tutorial: https://www.youtube.com/watch?v=FIP6I1x6lMA
