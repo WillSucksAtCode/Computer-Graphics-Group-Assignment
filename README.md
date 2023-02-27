@@ -1,1 +1,2 @@
-# Computer-Graphics-Group-Assignment
+# Computer Graphics Group Assignment
+
