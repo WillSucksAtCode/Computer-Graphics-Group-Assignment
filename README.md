@@ -11,7 +11,7 @@ Game Build: https://willidev.itch.io/viral-destruction-group-assignment (Too big
 
 Slide Video:https://youtu.be/XNeQQWMHPHE
 
-Video Demo: https://youtu.be/LAgPfSIDIG0
+Video Demo: [https://youtu.be/LAgPfSIDIG0](https://youtu.be/A0AwlYKQ_6Q)
 
 Slide Deck: https://docs.google.com/presentation/d/1qWbUSUVjijJ5278fTo5lUFFhR3mjFw8-BowExzcLLgA/edit?usp=sharing
 
